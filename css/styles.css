@@ -1,0 +1,224 @@
+/* Ensure the body takes the full height of the viewport */
+html, body {
+  height: 100%; /* Take full height of the viewport */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif; /* Use a clean, modern font */
+  background-color: #fff0f5; /* Light pink background */
+}
+
+/* Main content area */
+#content {
+  flex-grow: 1; /* This makes the content grow to take up available space */
+  padding: 20px; /* Adjust padding if necessary */
+}
+
+/* Centering the .container div */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content inside */
+  align-items: center; /* Horizontally center the content inside */
+  text-align: center; /* Center the text inside the container */
+  height: 100%; /* Make sure the container takes up full available height */
+}
+
+
+/* Footer styling */
+footer {
+  background-color: #ffb6c1; /* Soft cherry blossom pink */
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: auto; /* Pushes footer to the bottom if content is less */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  background-color: #F9B7B7;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a:hover {
+  color: #D57E6B;
+  transition: 0.3s ease;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+.product-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff0f5;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.checkout-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff0f5; /* Light pink background */
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  border: 2px solid #fcd4dd; /* Delicate border */
+}
+
+.checkout-container p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #b03060; /* Dark cherry text */
+  text-align: center;
+}
+
+.checkout-container input,
+.checkout-container textarea {
+  padding: 12px;
+  border: 1px solid #f8c6d8; /* Soft pink border */
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fffafd; /* Very light pink */
+  color: #333;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+.checkout-container input:focus,
+.checkout-container textarea:focus {
+  border-color: #e89cae;
+  outline: none;
+}
+
+.checkout-container textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.checkout-container button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.checkout-container button:first-of-type {
+  background-color: #ffb6c1; /* Light pink */
+  color: #fff;
+}
+
+.checkout-container button:first-of-type:hover {
+  background-color: #e89cae;
+}
+
+.checkout-container button:last-of-type {
+  background-color: #ffe4e1; /* Misty rose */
+  color: #b03060;
+}
+
+.checkout-container button:last-of-type:hover {
+  background-color: #fcd4dd;
+}
+
+.product-card button {
+  background-color: #ffb6c1; /* Light pink */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.4);
+}
+
+.product-card button:hover {
+  background-color: #ff69b4; /* Hot pink on hover */
+  transform: scale(1.05);
+}
+
+/* Search Bar */
+#search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 2px solid #ffb6c1; /* Light pink border */
+  border-radius: 25px;
+  font-size: 16px;
+  margin: 20px 0;
+  background-color: #fff0f5; /* Lavender blush */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4);
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color: #ff69b4; /* Hot pink */
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+/* Category Filter Dropdown */
+#categoryfilter {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 2px solid #ffb6c1; /* Light pink */
+  font-size: 16px;
+  background-color: #fff0f5; /* Lavender blush */
+  width: 100%;
+  max-width: 250px;
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+
+#categoryfilter:focus {
+  outline: none;
+  border-color: #ff69b4; /* Hot pink */
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+#categoryfilter option {
+  padding: 10px;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#categoryfilter option:hover {
+  background-color: #ffb6c1; /* Light pink on hover */
+}
+
+
+

@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Aloe Vera Gel", "price": 299, "description": "Soothes and hydrates skin", "category": "skincare", "image": "AloveraGel.webp" },
+    { "id": 2, "name": "Vitamin C Serum", "price": 499, "description": "Brightens skin tone", "category": "skincare", "image": "vitamin-c.jpg" },
+    { "id": 3, "name": "Moisturizing Lotion", "price": 350, "description": "Intensive skin hydration", "category": "bodycare", "image": "moisturizer.jpg" },
+    { "id": 4, "name": "Sunscreen SPF 50", "price": 699, "description": "Advanced UV protection", "category": "skincare", "image": "sunscreen.jpg" },
+    { "id": 5, "name": "Body Scrub", "price": 450, "description": "Gently exfoliates skin", "category": "bodycare", "image": "scrub.jpg" },
+    { "id": 6, "name": "Lip Balm", "price": 150, "description": "Repairs dry lips", "category": "skincare", "image": "lip-balm.jpg" },
+    { "id": 7, "name": "Hand Cream", "price": 200, "description": "Softens hands instantly", "category": "bodycare", "image": "hand-cream.jpg" },
+    { "id": 8, "name": "Paracetamol Tablets", "price": 60, "description": "Fever and pain relief (10 tablets)", "category": "medicine", "image": "paracetamol.jpg" },
+    { "id": 9, "name": "Vitamin D3 Supplement", "price": 320, "description": "Bone health support", "category": "supplements", "image": "vitamin-d3.jpg" },
+    { "id": 10, "name": "Ibuprofen Tablets", "price": 80, "description": "Anti-inflammatory pain reliever", "category": "medicine", "image": "ibuprofen.jpg" },
+    { "id": 11, "name": "Antacid Tablets", "price": 75, "description": "Relieves heartburn and ac\"id\"ity", "category": "medicine", "image": "Antacid.webp" },
+    { "id": 12, "name": "Hair Growth Serum", "price": 550, "description": "Stimulates hair follicles", "category": "bodycare", "image": "hair-serum.jpg" },
+    { "id": 13, "name": "Omega-3 Capsules", "price": 480, "description": "Supports heart health", "category": "supplements", "image": "omega3.webp" },
+    { "id": 14, "name": "Face Mask", "price": 350, "description": "Cleanses and rejuvenates", "category": "skincare", "image": "face-mask.jpg" },
+    { "id": 15, "name": "Night Cream", "price": 400, "description": "Revitalizes skin overnight", "category": "skincare", "image": "night-cream.jpg" },
+    { "id": 16, "name": "Multivitamin Tablets", "price": 280, "description": "Daily immunity booster", "category": "supplements", "image": "multivitamin.jpg" },
+    { "id": 17, "name": "Charcoal Cleanser", "price": 299, "description": "Deep pore cleanser", "category": "skincare", "image": "charcoal.jpg" },
+    { "id": 18, "name": "Cough Syrup", "price": 150, "description": "Relieves cough & throat irritation", "category": "medicine", "image": "cough-syrup.jpg" },
+    { "id": 19, "name": "Pain Relief Spray", "price": 220, "description": "Muscle and joint pain relief", "category": "medicine", "image": "pain-spray.jpg" },
+    { "id": 20, "name": "Foot Cream", "price": 260, "description": "Softens cracked heels", "category": "bodycare", "image": "foot-cream.jpg" }
+  ]

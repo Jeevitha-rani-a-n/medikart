@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - MediKart</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  <a class="back-btn" href="index.html">⬅ Back</a>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form onsubmit="return login()">
+      <input type="text" id="username" placeholder="Username" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script>
+    function login() {
+      const user = document.getElementById("username").value;
+      const pass = document.getElementById("password").value;
+      if (user === "user" && pass === "1234") {
+        window.location.href = "products.html";
+        return false;
+      } else {
+        alert("Invalid credentials");
+        return false;
+      }
+    }
+  </script>
+
+  <style>
+    .login-container {
+  background-color: #fff0f5; /* soft pink box */
+  border-radius: 12px;
+  padding: 40px; /* Increase padding for more space */
+  max-width: 600px; /* Increase max-width to make the container larger */
+  margin: 100px auto; /* Keeps it centered with some space at the top */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #D57E6B;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #D57E6B;
+}
+
+.login-container button {
+  background-color: #ffb7c5;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-container button:hover {
+  background-color: #ff7f9c;
+  color: white;
+}
+  </style>
+</body>
+</html>
